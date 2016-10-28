@@ -11,6 +11,7 @@ function callback(err, data, response) {
 
   //build the array
   for (var i=0; i<tweets.length; i++){
+  	  console.log(tweets[i].user.name+" "+tweets[i].user.screen_name)
       result.push={
           name:tweets[i].user.name,
           screen_name:tweets[i].user.screen_name,

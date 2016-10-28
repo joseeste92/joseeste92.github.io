@@ -6,7 +6,7 @@ var NavBar = React.createClass({
              return(
                 <nav>
                     <ul>
-                     <li class="icon">
+                     <li className="icon">
                         <a href="javascript:void(0);">&#9776;</a>
                      </li>
                      <li><a href="#">Text</a></li>
